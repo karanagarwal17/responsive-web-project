@@ -59,4 +59,23 @@ $(document).ready(function(){
     }, {
     offset: '50%'
   });
+
+  /* Mobile Navigation */
+    $('.js--nav-icon').click(function(){
+      var nav = $('.js--main-nav');
+      var icon = $('.js--nav-icon i');
+      if(icon.hasClass('ion-navicon-round')){
+        icon.addClass('ion-close-round');
+        icon.removeClass('ion-navicon-round');
+      }
+      else {
+        icon.removeClass('ion-close-round');
+        icon.addClass('ion-navicon-round');
+      }
+      nav.slideToggle(200);
+    });
+
+
+
+
 });
