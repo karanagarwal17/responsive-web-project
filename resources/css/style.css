@@ -257,9 +257,6 @@ header {
 }
 
 /* Mobile navi */
-.main-nav {
-  display: none;
-}
 
 .mobile-nav-icon {
   float:right;
